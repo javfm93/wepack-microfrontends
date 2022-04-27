@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - 'container/**'
+      - '.github/container.yml'
 defaults:
   run:
     working-directory: container
