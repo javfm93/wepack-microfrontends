@@ -1,4 +1,4 @@
-import marketingAPp from 'marketing/MarketingApp'
+import * as marketingApp from 'marketing/MarketingApp'
 import React, {useRef, useEffect} from 'react'
 
 export default ()=> {
