@@ -2,7 +2,8 @@
 
 There not persistent state, you can login and logout, and the dashboard is only accesible once you log in. To see the application: https://d333lavre3n5j8.cloudfront.net/
 
-There a set of workflows that deploys the build directly to a S3 bucket
+There a set of workflows that deploys the different mfe directly to a S3 bucket, their deployments are independent based on changes in their respectives folders and are automatically applied by the container.
+
 There are 4 different microfrontend in this project:
 - 3 are written in React (Container, auth, marketing)
 - 1 in vue (Dashboard)
